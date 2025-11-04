@@ -170,7 +170,7 @@ const experiences = [
   },
 ];
 const testimonials = [
-
+];
 //const testimonials = [
 //   {
 //     testimonial:
