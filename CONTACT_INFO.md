@@ -1,6 +1,6 @@
 # 联系信息 / Contact Information
 
-## Yuexuan Li (李悦轩)
+## Yuexuan Li (李悦萱)
 
 ### 📱 联系方式
 - **Mobile:** 18292683166

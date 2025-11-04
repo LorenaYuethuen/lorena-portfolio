@@ -1,4 +1,15 @@
 import {
+  Python,
+  JAVA,
+  JMETER,
+  SQL,
+  MATLAB,
+  TEST_ENGINEER,
+  CPLUS,
+  computer,
+  EEG,
+  TK_PROJECT,
+  neuro,
   mobile,
   backend,
   creator,
@@ -62,19 +73,23 @@ const services = [
 const technologies = [
   {
     name: "Python",
-    icon: javascript,
+    icon: Python,
   },
   {
     name: "Java",
-    icon: typescript,
+    icon: JAVA,
+  },
+  {
+    name: "JMeter",
+    icon: JMETER,
   },
   {
     name: "SQL",
-    icon: mongodb,
+    icon: SQL,
   },
   {
     name: "MATLAB",
-    icon: reactjs,
+    icon: MATLAB,
   },
   {
     name: "HTML 5",
@@ -86,7 +101,7 @@ const technologies = [
   },
   {
     name: "JavaScript",
-    icon: nodejs,
+    icon: javascript,
   },
   {
     name: "React JS",
@@ -106,7 +121,7 @@ const technologies = [
   },
   {
     name: "C++",
-    icon: redux,
+    icon: CPLUS,
   },
 ];
 
@@ -114,7 +129,7 @@ const experiences = [
   {
     title: "Test Engineer",
     company_name: "Beijing Langwei - Taikang Group",
-    icon: tesla,
+    icon: TEST_ENGINEER,
     iconBg: "#383E56",
     date: "Jun 2024 - Present",
     points: [
@@ -130,7 +145,7 @@ const experiences = [
   {
     title: "MSc in Computational Neuroscience",
     company_name: "University of Birmingham",
-    icon: starbucks,
+    icon: neuro,
     iconBg: "#E6DEDD",
     date: "Sep 2022 - Dec 2023",
     points: [
@@ -143,7 +158,7 @@ const experiences = [
   {
     title: "BSc in Computer Science",
     company_name: "Xi'an University of Architecture",
-    icon: shopify,
+    icon: computer,
     iconBg: "#383E56",
     date: "Sep 2018 - Jul 2022",
     points: [
@@ -154,33 +169,34 @@ const experiences = [
     ],
   },
 ];
-
 const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+
+//const testimonials = [
+//   {
+//     testimonial:
+//       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+//     name: "Sara Lee",
+//     designation: "CFO",
+//     company: "Acme Co",
+//     image: "https://randomuser.me/api/portraits/women/4.jpg",
+//   },
+//   {
+//     testimonial:
+//       "I've never met a web developer who truly cares about their clients' success like Rick does.",
+//     name: "Chris Brown",
+//     designation: "COO",
+//     company: "DEF Corp",
+//     image: "https://randomuser.me/api/portraits/men/5.jpg",
+//   },
+//   {
+//     testimonial:
+//       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+//     name: "Lisa Wang",
+//     designation: "CTO",
+//     company: "456 Enterprises",
+//     image: "https://randomuser.me/api/portraits/women/6.jpg",
+//   },
+// ];
 
 const projects = [
   {
@@ -201,8 +217,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: neuro
+  // source_code_link: "https://github.com/",
   },
   {
     name: "Interactive Music Therapy Device",
@@ -222,8 +238,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: EEG
+  //  source_code_link: "https://github.com/",
   },
   {
     name: "Email Task Sorting Platform Testing",
@@ -243,8 +259,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: TK_PROJECT
+  //  source_code_link: "https://github.com/",
   },
 ];
 

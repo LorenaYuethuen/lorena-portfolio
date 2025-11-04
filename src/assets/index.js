@@ -6,6 +6,11 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import EEG from "./EEG.png";
+import TK_PROJECT from "./TK_PROJECT.png";
+import neuro from "./neuro.png";
+import computer from "./computer.png";
+import TEST_ENGINEER from "./TEST_ENGINEER.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -20,6 +25,12 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import CPLUS from "./tech/CPLUS.png";
+import Python from "./tech/Python.png";
+import JAVA from "./tech/JAVA.png";
+import JMETER from "./tech/JMTERT.png";
+import SQL from "./tech/SQL.png";
+import MATLAB from "./tech/MATLAB.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -39,6 +50,17 @@ export {
   github,
   menu,
   close,
+  TEST_ENGINEER,
+  CPLUS,
+  computer,
+  EEG,
+  TK_PROJECT,
+  neuro,
+  Python,
+  JAVA,
+  JMETER,
+  SQL,
+  MATLAB,
   css,
   docker,
   figma,
