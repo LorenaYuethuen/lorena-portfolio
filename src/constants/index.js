@@ -42,24 +42,40 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Test Engineer",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "Software Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Data Analyst",
+    icon: mobile,
+  },
+  {
+    title: "Neuroscience Researcher",
     icon: creator,
   },
 ];
 
 const technologies = [
+  {
+    name: "Python",
+    icon: javascript,
+  },
+  {
+    name: "Java",
+    icon: typescript,
+  },
+  {
+    name: "SQL",
+    icon: mongodb,
+  },
+  {
+    name: "MATLAB",
+    icon: reactjs,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -70,101 +86,71 @@ const technologies = [
   },
   {
     name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
+    name: "React JS",
+    icon: tailwind,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "docker",
+    icon: docker,
+  },
+  {
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "C++",
+    icon: redux,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Test Engineer",
+    company_name: "Beijing Langwei - Taikang Group",
     icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    iconBg: "#383E56",
+    date: "Jun 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Full-Chain Automated Testing: Design and execute 17 end-to-end test cases covering email sending/receiving → intelligent sorting → task generation/flow, ensuring stable and accurate task allocation.",
+      "Data-Driven Testing: Implement data-driven testing with CSV parameterization and Python scripts, enhancing test data diversity/coverage while reducing manual intervention.",
+      "Deep Database Verification: Verify interface-database data consistency through real-time comparison, boosting system reliability and data integrity.",
+      "Application of Advanced Testing Tools: Leverage JMeter's advanced features (JSON extraction, Groovy scripting, dynamic assertions) to improve performance testing and interface verification precision.",
+      "Automated Operation & Data Analysis: Develop Python scripts for batch data repair, analysis and report generation, enhancing automated operation capabilities.",
+      "Performance Testing & Monitoring: Establish interface performance benchmarks, conduct concurrent stress testing and response time tracking to ensure high-concurrency stability.",
+      "Cross-Departmental Collaboration: Collaborate closely with product, development and operation teams to propose process optimization suggestions.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "MSc in Computational Neuroscience",
+    company_name: "University of Birmingham",
+    icon: starbucks,
+    iconBg: "#E6DEDD",
+    date: "Sep 2022 - Dec 2023",
+    points: [
+      "Courses: Methods & Applications of Cognitive Neuroscience, Mind, Brain & Models, Computational Methods, Electrophysiological Methods in Cognitive Neuroscience.",
+      "Specialized in FFT, MNE, Evoked Potentials, Spectral Analysis, Source Modeling.",
+      "Conducted research on brain attention control mechanisms in individuals with high autistic traits.",
+      "Built Attentional Drift Diffusion Model (ADDM) via MATLAB and Bayesian DE-MCMC.",
+    ],
+  },
+  {
+    title: "BSc in Computer Science",
+    company_name: "Xi'an University of Architecture",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Sep 2018 - Jul 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Courses: Fundamentals of JAVA Programming, Python, Database Systems, C++ Software Development, Web Application Development, Agile Development.",
+      "Participated in Interactive Music Therapy Device project based on BCI and Machine Learning.",
+      "Developed skills in software development, testing, and data analysis.",
+      "Graduated with a strong foundation in computer science and programming.",
     ],
   },
 ];
@@ -198,20 +184,20 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Brain Attention Control Mechanisms Research",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Research project investigating attention control mechanisms in individuals with high autistic traits. Used visual search T-task paradigm and built Attentional Drift Diffusion Model (ADDM) via MATLAB and Bayesian DE-MCMC, fitting reaction times to separate attention selection and stimulus recognition features.",
     tags: [
       {
-        name: "react",
+        name: "matlab",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "bayesian-modeling",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "neuroscience",
         color: "pink-text-gradient",
       },
     ],
@@ -219,20 +205,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Interactive Music Therapy Device",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "BCI-based music therapy system using OpenBCI to collect EEG data. Designed frequency-domain feature-based closed-loop control for dynamic music parameter adjustment. Utilized Raspberry Pi for real-time interaction between physiological signals and music output.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "machine-learning",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "bci",
         color: "pink-text-gradient",
       },
     ],
@@ -240,20 +226,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Email Task Sorting Platform Testing",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Comprehensive automated testing platform for Taikang Group's email task sorting system. Implemented full-chain automated testing with 17 end-to-end test cases, data-driven testing with CSV parameterization, and performance testing using JMeter for high-concurrency stability.",
     tags: [
       {
-        name: "nextjs",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "jmeter",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "automated-testing",
         color: "pink-text-gradient",
       },
     ],
