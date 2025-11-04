@@ -169,8 +169,10 @@ const experiences = [
     ],
   },
 ];
+
 const testimonials = [
-];
+
+
 //const testimonials = [
 //   {
 //     testimonial:
@@ -196,7 +198,7 @@ const testimonials = [
 //     company: "456 Enterprises",
 //     image: "https://randomuser.me/api/portraits/women/6.jpg",
 //   },
-// ];
+];
 
 const projects = [
   {
